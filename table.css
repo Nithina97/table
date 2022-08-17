@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:hover {
+    background-color: black;
+    color: white;
+} 
